@@ -1,3 +1,5 @@
+# I downloaded the Code of the extension and uploaded it on github because the oreginal maintainer/uploader of the chrome extension didn't upload it on github
+
 # Tab Freezer
 
 is a Firefox and Chrome add-on based on the webextension API.
