@@ -1,24 +1,5 @@
-# I downloaded the Code of the extension and uploaded it on github because the oreginal maintainer/uploader of the chrome extension didn't upload it on github
-
-# Tab Freezer
-
-is a Firefox and Chrome add-on based on the webextension API.
-
-It is written with Chrome's callback API style which is also supported by Firefox.
-
-Each browser has a different manifest.json template.
-
-*Summary:* All new tabs and popups opened by blacklisted domains are closed automatically.
-
-This add-on is able to block popups and ad-links where other ad-blockers "fail". Some sites put invsible layers over links, media control buttons and even full web pages to trick you on clicking in them. For browsers and ad-blockers those are legitimate links and clicks that won't be blocked.
-
-With Tab Freezer you can block those popups. Just activate Tab Freezer on the page it is happening and all opened popups,tabs and windows are closed automatically.
-
-
-
-Firefox: https://addons.mozilla.org/en-US/firefox/addon/tab-freezer/
-
-Chrome: https://chrome.google.com/webstore/detail/tab-freezer/ghboalniiaeppganfgbbdejcmjcfcjgh
-
-
-
+just the source code of "tab freezer".
+I uploaded it because it was deleted from chrome store.
+This extension is usefult when downloading from a website which have pop-ups, just enable it for the current domain by clicking on the extension icon ( unless the site doesn't have Anti-Adblocker detection check ).
+If the site you are downloading from have Anti-Adblocker detection you will need to write Scriptlet filter rules on ublock origin or Brave shields which uses the same syntax as ublock origin.
+You can write a scriptlet or a userscript ( Tampermonkey needed ) for the website by investigating .js file in DevTools -> resources and send the function responsible of Anti-Adblocker detection to AI to bypass it.
